@@ -1,0 +1,33 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mods]]
+modId = "suitcase"
+version = "1.0.0"
+displayName = "Suitcase Mod"
+authors = "Developer"
+description = '''
+A Create: Mechanical Aviation addon that adds a suitcase block with 54 slots and sticky notes.
+'''
+
+[[dependencies.suitcase]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.165,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.suitcase]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.22)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.suitcase]]
+modId = "create"
+type = "required"
+versionRange = "*"
+ordering = "AFTER"
+side = "BOTH"
